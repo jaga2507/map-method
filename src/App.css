@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgba(128, 128, 128, 0.205);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile img{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-top: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-card{
+  margin: auto;
+  width: 70%;
+  border: 1px solid rgba(128, 128, 128, 0.486);
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem 2rem;
+  height: 10rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.name{
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgba(255, 68, 0, 0.651);
+  text-decoration: underline;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add{
+  margin-top: 10px;
+  font-size: 20px;
+  width: 65%;
+}
+.land{
+  font-weight: bolder;
+}
+.dooron{
+  color: blueviolet;
+}
+.gen{
+  margin-top: 10px;
+  color: gray;
+}
+.underline{
+  text-decoration: underline;
+}
+.detials{
+  margin-left: 2rem;
+}
+.members-detials{
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.detial-cards{
+  background-color: white;
+  width: 15.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.308);
+  padding: 10px;
+  border-radius: 5px;
+}
+.map-gen{
+  color: gray;
+  font-size: 13px;
+}
+.map-name{
+  font-weight: bold;
+  margin-top: 5px;
+}
+.map-mail{
+  color: rgba(255, 68, 0, 0.747);
+  font-size: 14px;
+  margin-top: 5px;
 }
