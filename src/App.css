@@ -14,7 +14,7 @@ body{
   border-radius: 10px;
   background-color: white;
   padding: 1rem 2rem;
-  height: 10rem;
+  min-height: 10rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -72,4 +72,28 @@ body{
   color: rgba(255, 68, 0, 0.747);
   font-size: 14px;
   margin-top: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .top-card{
+    padding: 1rem 1rem;
+  }
+  .profile{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+.name{
+  font-size: 17px;
+  font-weight: bolder;
+  color: rgba(255, 68, 0, 0.651);
+  text-decoration: underline;
+}
+.add{
+  margin-top: 10px;
+  font-size: 16px;
+  width: 90%;
+}
+.members-detials{
+  width: 80%;
+}
 }
